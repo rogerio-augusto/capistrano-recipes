@@ -4,15 +4,14 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "dark-capistrano-recipes"
+    gem.name = "ra-capistrano-recipes"
     gem.summary = %Q{Darkside's Capistrano recipes}
     gem.description = 'Extend the Capistrano gem with these useful recipes'
-    gem.email = "leonardobighetti@gmail.com"
-    gem.homepage = "http://github.com/darkside/capistrano-recipes"
-    gem.authors = ["Phil Misiowiec", "Leonardo Bighetti"]
+    gem.email = "rogerio@depoiseuleio.com"
+    gem.homepage = "http://github.com/rogerio-augusto/capistrano-recipes"
+    gem.authors = ["Phil Misiowiec", "Leonardo Bighetti", "Rogério Augusto"]
     gem.add_dependency('capistrano', ['>= 2.5.9'])
     gem.add_dependency('capistrano-ext', ['>= 1.2.1'])
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
